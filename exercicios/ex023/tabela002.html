@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -30,6 +31,16 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
         }
     </style>
 </head>
@@ -69,6 +80,26 @@
                  <td>Rio Grande do Sul</td>
                  <td>11 377 239</td>
              </tr>
+             <tr>
+                 <td>Pará</td>
+                 <td>8 602 865</td>
+             </tr>
+             <tr>
+                 <td>Santa Catarina</td>
+                 <td>7 164 788</td>
+             </tr>
+             <tr>
+                 <td>Sergipe</td>
+                 <td>2 290 679</td>
+             </tr>
+             <tr>
+                <td>Manaus</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Maranão</td>
+                <td>25 919 949</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -77,5 +108,8 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam asperiores quibusdam est, possimus hic, provident neque et, expedita velit totam facilis! Doloribus in fugit suscipit ratione quaerat delectus qui quod. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita maiores voluptate dignissimos. Officiis voluptas quis voluptatum officia iste, illum quas excepturi repudiandae ipsa harum! Quas nostrum placeat repudiandae aliquid. Inventore! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis quas architecto excepturi similique fugit ea sapiente sunt eum? Cum quae provident tempore temporibus id eos debitis molestiae fuga hic.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam asperiores quibusdam est, possimus hic, provident neque et, expedita velit totam facilis! Doloribus in fugit suscipit ratione quaerat delectus qui quod. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita maiores voluptate dignissimos. Officiis voluptas quis voluptatum officia iste, illum quas excepturi repudiandae ipsa harum! Quas nostrum placeat repudiandae aliquid. Inventore! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis quas architecto excepturi similique fugit ea sapiente sunt eum? Cum quae provident tempore temporibus id eos debitis molestiae fuga hic.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam asperiores quibusdam est, possimus hic, provident neque et, expedita velit totam facilis! Doloribus in fugit suscipit ratione quaerat delectus qui quod. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita maiores voluptate dignissimos. Officiis voluptas quis voluptatum officia iste, illum quas excepturi repudiandae ipsa harum! Quas nostrum placeat repudiandae aliquid. Inventore! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis quas architecto excepturi similique fugit ea sapiente sunt eum? Cum quae provident tempore temporibus id eos debitis molestiae fuga hic.</p>
 </body>
 </html>
